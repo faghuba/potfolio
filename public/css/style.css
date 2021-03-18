@@ -16,6 +16,7 @@ html, body {
     color: #111;
 }
 h1 {
+    margin-top: 100px;
     font-size: 30px;
     font-weight: 500;
 }
@@ -28,7 +29,7 @@ p {
 /* section  */
 section {
     align-items: center;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     height: 100vh;
     padding: 100px;
@@ -58,7 +59,7 @@ section .home {
     position: absolute;
     top: 30px;
     left: 100px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     z-index: 20;
 }
@@ -70,11 +71,11 @@ section .home {
     background-size: 30px;
     background: var(--primary-color) url(../images/menu.png);
     cursor: pointer;
-    height: 60px;
+    height: 45px;
     position: fixed;
     right: 0;
     top: 0;
-    width: 60px;
+    width: 50px;
     z-index: 20;
 }
 .toggle.active {
